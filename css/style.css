@@ -1342,6 +1342,7 @@ body {
   }
   .download .download_content {
     bottom: 188px;
+    bottom: 120px;
   }
   .download .download_content .download_img {
     display: none;
@@ -1352,6 +1353,7 @@ body {
   }
   .download .download_button {
     width: 90%;
+    height: 300px;
   }
 }
 
