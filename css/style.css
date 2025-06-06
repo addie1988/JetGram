@@ -961,7 +961,13 @@ body {
   margin-top: 40px;
 }
 
+.main .main_content .function .function_content .function_text .function_text_content ul:nth-of-type(2):nth-child(2) .function_text_li_content .function_text_li_text .function_text_li_text_content .function_text_li_text_title .function_text_li_text_title_content .function_text_li_text_h2 {
+  background-color: #177AFF;
+  border: 2px solid #177AFF;
+}
+
 .main .main_content .function .function_content .function_text .function_text_content ul:nth-of-type(2):nth-child(2) .function_text_li_content .function_text_li_text .function_text_li_text_content .function_text_li_text_title .function_text_li_text_title_content h2 {
+  background-color: #024FB8;
   border: 2px solid #024FB8;
 }
 
