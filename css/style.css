@@ -621,7 +621,7 @@ body {
   font-size: 16px;
   color: #fff;
   padding: 16px;
-  line-height: 2;
+  line-height: 1;
   background-color: #177AFF;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
@@ -640,8 +640,7 @@ body {
 }
 
 .main .main_content .function .function_content .function_text .function_text_content ul .function_text_li .function_text_li_content .function_text_li_text .function_text_li_text_content ol li p {
-  padding: 16px;
-  line-height: 2;
+  line-height: 1;
   font-size: 16px;
 }
 
