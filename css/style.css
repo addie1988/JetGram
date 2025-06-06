@@ -397,6 +397,7 @@ body {
 
 .main {
   position: relative;
+  overflow: hidden;
 }
 
 .main::before {
