@@ -1247,6 +1247,10 @@ body {
   .main .main_content .function .function_content .function_text .function_text_content ul {
     width: 90%;
   }
+  .main .main_content .function .function_content .function_text .function_text_content ul .function_text_li .function_text_li_content .function_text_li_img .function_text_li_img_content .function_text_li_img_svg {
+    width: 15em;
+    height: 15em;
+  }
   .main .main_content .function .function_content .function_text .function_text_content ul:nth-child(2) {
     width: 90%;
   }
