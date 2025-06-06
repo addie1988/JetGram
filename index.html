@@ -28,9 +28,9 @@
                     <div class="menu nav-menu" id="nav-menu">
                         <div class="menu_content">
                             <ul>
-                                <li><a class="scroll-link" href="#privacy">保護隱私</a></li>
-                                <li><a class="scroll-link" href="#function">功能</a></li>
-                                <li><a class="scroll-link" href="#download">下載</a></li>
+                                <li><a class="scroll-link" href="#privacy" data-i18n="nav.privacy">保護隱私</a></li>
+                                <li><a class="scroll-link" href="#function" data-i18n="nav.function">功能</a></li>
+                                <li><a class="scroll-link" href="#download" data-i18n="nav.download">下載</a></li>
                             </ul>
                         </div>
                     </div>
@@ -115,7 +115,7 @@
         <div class="main_content">
 
 
-            <div class="privacy">
+            <div class="privacy" id="privacy">
                 <div class="privacy_content">
                     <div class="privacy_img">
                         <div class="privacy_img_content">
@@ -182,8 +182,8 @@
                                 <circle class="st0" cx="20.08" cy="48.5" r="2.59" />
                                 <circle class="st0" cx="31.8" cy="48.5" r="2.59" />
                             </svg>
-                            <h2>超越想像的隐私保护</h2>
-                            <p>
+                            <h2 data-i18n="privacy.title">超越想像的隐私保护</h2>
+                            <p data-i18n="privacy.content">
                                 JetGram以最高规格的隐私保护技术为基础，让你的每一则讯息都受到完善保护。我们的军事级别端对端加密确保只有你和聊天对象能够看到交流的内容，第三方绝对无法窥探，真正做到私密无忧。还有特殊「自动删除」模式，一旦读取完毕，讯息立即消失，不留任何痕迹。
                             </p>
                         </div>
@@ -203,8 +203,9 @@
                     </div>
 
 
-                    <div class="function_text">
+                    <div class="function_text" id="function">
                         <div class="function_text_content">
+
                             <ul>
                                 <li class="function_text_li">
                                     <div class="function_text_li_content">
@@ -229,8 +230,8 @@
                                                                         fill: none;
                                                                         stroke: #177aff;
                                                                         stroke-miterlimit: 10;
-                                                                        stroke-dasharray: 200;
-                                                                        stroke-dashoffset: 200;
+                                                                        stroke-dasharray: 300;
+                                                                        stroke-dashoffset: 300;
                                                                         animation: circle-draw 10s linear infinite
                                                                     }
 
@@ -284,19 +285,272 @@
                                                             </g>
                                                         </svg>
                                                     </div>
-                                                    <span>贴心的自动删除功能</span>
+                                                    <span data-i18n="function.auto_delete.title">贴心的自动删除功能</span>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="function_text_li_text">
                                             <div class="function_text_li_text_content">
-                                                <p>
+                                                <p data-i18n="function.auto_delete.content">
                                                     独特的「自动限时删除」功能让你设定讯息的存在时间，过期后讯息会自动消失，不留痕迹。无论是敏感话题或是临时交流，都能保持高度隐私。你可以为不同对话设定不同的删除时间，从几天到几个月都可以，完全按照你的需求客制化！
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
                                 </li>
+                                <li class="function_text_li dark_blue">
+                                    <div class="function_text_li_content">
+                                        <div class="function_text_li_img">
+                                            <div class="function_text_li_img_content">
+                                                <div class="function_text_li_img_svg">
+                                                    <div class="function_text_li_img_svg_content">
+                                                        <svg id="function_text_li_img" data-name="function_text_li_img"
+                                                            xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                                            viewBox="0 0 80 80">
+                                                            <defs>
+                                                                <style>
+                                                                    .st0 {
+                                                                        stroke-width: 2px;
+                                                                    }
+
+                                                                    .st0,
+                                                                    .st1 {
+                                                                        fill: none;
+                                                                        stroke: #177aff;
+                                                                        stroke-linecap: round;
+                                                                        stroke-linejoin: round;
+                                                                    }
+
+                                                                    .st1 {
+                                                                        stroke-width: 3px;
+                                                                    }
+                                                                </style>
+                                                            </defs>
+                                                            <g>
+                                                                <path class="st1"
+                                                                    d="M53.43,61.13v8.24c0,2.23-1.81,4.03-4.03,4.03H14.23c-2.23,0-4.03-1.81-4.03-4.03V9.79c0-2.23,1.81-4.03,4.03-4.03h35.17c2.23,0,4.03,1.81,4.03,4.03v2.9" />
+                                                                <path class="st1"
+                                                                    d="M19.03,5.75l.11,1.51c0,2.38,2.36,4.31,5.27,4.31h14.81c2.91,0,5.27-1.93,5.27-4.31l.11-1.51" />
+                                                                <circle class="st1" cx="31.81" cy="64.64" r="3.98" />
+                                                            </g>
+                                                            <g>
+                                                                <g>
+                                                                    <rect class="st1" x="41.17" y="31.22" width="17.5"
+                                                                        height="11.6" />
+                                                                    <polygon class="st0"
+                                                                        points="58.67 34.04 58.67 37.02 58.67 40.01 64.07 42.82 64.07 37.02 64.07 31.22 58.67 34.04" />
+                                                                </g>
+                                                                <path class="st1"
+                                                                    d="M49.38,19.08c-9.78,1.78-16.27,11.14-14.5,20.93.34,1.87.96,3.61,1.8,5.2l-1.73,9.62,7.75-3.01c3.73,2.46,8.37,3.55,13.11,2.69,9.78-1.78,16.27-11.14,14.5-20.92-1.78-9.78-11.14-16.27-20.93-14.5Z" />
+                                                            </g>
+                                                        </svg>
+                                                    </div>
+                                                    <span data-i18n="function.quality.title">高品质通讯体验</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="function_text_li_text">
+                                            <div class="function_text_li_text_content">
+                                                <div class="function_text_li_text_title">
+                                                    <div class="function_text_li_text_title_content">
+                                                        <h2 data-i18n="function.quality.title">
+                                                            支援超高解析度语音与视讯通话，无论是一对一或是多人会议，都能享有媲美面对面的通讯体验：
+                                                        </h2>
+                                                    </div>
+                                                </div>
+                                                <ol>
+                                                    <li>
+                                                        <span><img src="./images/tick.png" alt="打勾"></span>
+                                                        <p data-i18n="function.quality.low_latency">
+                                                            低延迟传输，实现真正即时对话
+                                                        </p>
+                                                    </li>
+                                                </ol>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="function_text_li">
+                                    <div class="function_text_li_content">
+                                        <div class="function_text_li_img">
+                                            <div class="function_text_li_img_content">
+                                                <div class="function_text_li_img_svg">
+                                                    <div class="function_text_li_img_svg_content">
+                                                        <svg id="function_text_li_img" data-name="function_text_li_img"
+                                                            xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                                            viewBox="0 0 80 80">
+                                                            <defs>
+                                                                <style>
+                                                                    .st0 {
+                                                                        stroke-miterlimit: 10;
+                                                                    }
+
+                                                                    .st0,
+                                                                    .st1,
+                                                                    .st2 {
+                                                                        fill: none;
+                                                                        stroke: #177aff;
+                                                                        stroke-linecap: round;
+                                                                    }
+
+                                                                    .st0,
+                                                                    .st2 {
+                                                                        stroke-width: 3px;
+                                                                    }
+
+                                                                    .st1 {
+                                                                        stroke-width: 2px;
+                                                                    }
+
+                                                                    .st1,
+                                                                    .st2 {
+                                                                        stroke-linejoin: round;
+                                                                    }
+                                                                </style>
+                                                            </defs>
+                                                            <path class="st0"
+                                                                d="M62.3,36.97v27.22c0,2.09-1.7,3.79-3.79,3.79H15.42c-2.09,0-3.79-1.7-3.79-3.79V21.83c0-2.09,1.7-3.79,3.79-3.79h27.13" />
+                                                            <polygon class="st1"
+                                                                points="55.16 19.01 58.24 10.68 61.32 19.01 69.66 22.1 61.32 25.18 58.24 33.51 55.16 25.18 46.82 22.1 55.16 19.01" />
+                                                            <polyline class="st2"
+                                                                points="11.64 62.67 43.78 30.54 62.25 49.01" />
+                                                            <polyline class="st2"
+                                                                points="11.64 48.41 24.06 35.98 30.28 42.19" />
+                                                            <circle class="st1" cx="32.03" cy="26.95" r="3.67" />
+                                                        </svg>
+                                                    </div>
+                                                    <span data-i18n="function.media.title">多元媒体分享</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="function_text_li_text">
+                                            <div class="function_text_li_text_content">
+                                                <div class="function_text_li_text_title">
+                                                    <div class="function_text_li_text_title_content">
+                                                        <h2 data-i18n="function.media.title">
+                                                            轻松分享并管理各种媒体内容，JetGram的媒体处理引擎让分享变得前所未有的简单：
+                                                        </h2>
+                                                    </div>
+                                                </div>
+                                                <ol>
+                                                    <li>
+                                                        <span><img src="./images/tick.png" alt="打勾"></span>
+                                                        <p data-i18n="function.media.high_res">
+                                                            超高解析度图片不失真，摄影作品原汁原味
+                                                        </p>
+                                                    </li>
+                                                    <li>
+                                                        <span><img src="./images/tick.png" alt="打勾"></span>
+                                                        <p data-i18n="function.media.fast">
+                                                            快速传输，无需漫长等待
+                                                        </p>
+                                                    </li>
+                                                    <li>
+                                                        <span><img src="./images/tick.png" alt="打勾"></span>
+                                                        <p data-i18n="function.media.voice">
+                                                            专业级语音讯息一键录制，音质清晰如现场
+                                                        </p>
+                                                    </li>
+                                                    <li>
+                                                        <span><img src="./images/tick.png" alt="打勾"></span>
+                                                        <p data-i18n="function.media.file_size">
+                                                            单档传输最大100MB，告别分割档案的麻烦
+                                                        </p>
+                                                    </li>
+                                                </ol>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="function_text_li dark_blue">
+                                    <div class="function_text_li_content">
+                                        <div class="function_text_li_img">
+                                            <div class="function_text_li_img_content">
+                                                <div class="function_text_li_img_svg">
+                                                    <div class="function_text_li_img_svg_content">
+                                                        <svg id="function_text_li_img" data-name="function_text_li_img"
+                                                            xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                                            viewBox="0 0 80 80">
+                                                            <defs>
+                                                                <style>
+                                                                    .st0 {
+                                                                        stroke-width: 2px;
+                                                                    }
+
+                                                                    .st0,
+                                                                    .st1 {
+                                                                        fill: none;
+                                                                        stroke: #177aff;
+                                                                        stroke-linecap: round;
+                                                                        stroke-linejoin: round;
+                                                                    }
+
+                                                                    .st1 {
+                                                                        stroke-width: 3px;
+                                                                    }
+                                                                </style>
+                                                            </defs>
+                                                            <g>
+                                                                <line class="st1" x1="19.41" y1="34.56" x2="40.3"
+                                                                    y2="34.56" />
+                                                                <line class="st1" x1="19.41" y1="57.24" x2="52.96"
+                                                                    y2="57.24" />
+                                                            </g>
+                                                            <g>
+                                                                <line class="st1" x1="19.41" y1="49.9" x2="40.3"
+                                                                    y2="49.9" />
+                                                                <line class="st1" x1="19.41" y1="41.9" x2="29.86"
+                                                                    y2="41.9" />
+                                                            </g>
+                                                            <g>
+                                                                <polyline class="st1"
+                                                                    points="60.05 24.89 65.06 10.71 73.48 13.69 61.72 46.92 53.31 43.94 57.54 31.97" />
+                                                                <path class="st1"
+                                                                    d="M68.47,5.18h4.01c1.36,0,2.46,1.1,2.46,2.46v4.77h-8.93v-4.77c0-1.36,1.1-2.46,2.46-2.46Z"
+                                                                    transform="translate(6.97 -23.01) rotate(19.49)" />
+                                                                <polygon class="st1"
+                                                                    points="53.61 56.46 53.33 43.88 61.74 46.86 53.61 56.46" />
+                                                                <line class="st0" x1="53.44" y1="48.81" x2="58.56"
+                                                                    y2="50.62" />
+                                                            </g>
+                                                            <path class="st1"
+                                                                d="M52.87,25.01c-1.43-.29-2.91-.44-4.43-.44h-20.82c-12.17,0-22.04,9.87-22.04,22.04,0,6.89,3.17,13.05,8.12,17.09v10.89l7.04-7.04c2.17.71,4.48,1.1,6.88,1.1h20.82c12.17,0,22.04-9.87,22.04-22.04,0-4.56-1.39-8.8-3.76-12.32" />
+                                                        </svg>
+                                                    </div>
+                                                    <span data-i18n="function.feedback.title">即时意见回馈</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="function_text_li_text">
+                                            <div class="function_text_li_text_content">
+                                                <div class="function_text_li_text_title">
+                                                    <div class="function_text_li_text_title_content">
+                                                        <h2 data-i18n="function.feedback.title">
+                                                            内建的意见回馈系统让你的声音被重视：
+                                                        </h2>
+                                                    </div>
+                                                </div>
+                                                <ol>
+                                                    <li>
+                                                        <span><img src="./images/tick.png" alt="打勾"></span>
+                                                        <p data-i18n="function.feedback.report">
+                                                            直觉式问题回报功能，遇到任何问题一键提交
+                                                        </p>
+                                                    </li>
+                                                    <li>
+                                                        <span><img src="./images/tick.png" alt="打勾"></span>
+                                                        <p data-i18n="function.feedback.survey">
+                                                            每月使用者体验调查，持续优化产品
+                                                        </p>
+                                                    </li>
+                                                </ol>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <ul>
 
                                 <li class="function_text_li dark_blue">
                                     <div class="function_text_li_content">
@@ -355,7 +609,7 @@
                                                                 d="M22.38,33.9v-13.7c0-2.46,1.99-4.45,4.45-4.45h3.96s0-5.11,0-5.11l5.11,5.11h22.86c2.46,0,4.45,1.99,4.45,4.45v9.36" />
                                                         </svg>
                                                     </div>
-                                                    <span>创新对话盒功能</span>
+                                                    <span data-i18n="function.chat_box.title">创新对话盒功能</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -363,70 +617,72 @@
                                             <div class="function_text_li_text_content">
                                                 <div class="function_text_li_text_title">
                                                     <div class="function_text_li_text_title_content">
-                                                        <h2>
+                                                        <h2 data-i18n="function.chat_box.title">
                                                             全新「对话盒」功能让你的聊天更加丰富多彩！在同一个对话视窗内创建多个分类主题，轻松整理不同话题：
                                                         </h2>
                                                     </div>
                                                 </div>
-                                                <ul>
+                                                <ol>
                                                     <li>
                                                         <span><img src="./images/tick.png" alt="打勾"></span>
-                                                        <p>
+                                                        <p data-i18n="function.chat_box.work">
                                                             工作讨论盒：专注于专业交流
                                                         </p>
                                                     </li>
                                                     <li>
                                                         <span><img src="./images/tick.png" alt="打勾"></span>
-                                                        <p>
+                                                        <p data-i18n="function.chat_box.life">
                                                             生活分享盒：轻松分享日常点滴
                                                         </p>
                                                     </li>
                                                     <li>
                                                         <span><img src="./images/tick.png" alt="打勾"></span>
-                                                        <p>
+                                                        <p data-i18n="function.chat_box.files">
                                                             档案资料盒：集中存放重要文件
                                                         </p>
                                                     </li>
                                                     <li>
                                                         <span><img src="./images/tick.png" alt="打勾"></span>
-                                                        <p>
+                                                        <p data-i18n="function.chat_box.reminders">
                                                             重要提醒盒：不会被其他讯息淹没的重要事项
                                                         </p>
                                                     </li>
-                                                </ul>
-                                                <p class="function_text_li_text_title_p">
+                                                </ol>
+                                                <p data-i18n="function.chat_box.switch"
+                                                    class="function_text_li_text_title_p">
                                                     对话盒之间可以无缝切换，让你的聊天井然有序，再也不用费力翻找旧讯息！
                                                 </p>
                                                 <div class="function_text_li_text_title">
                                                     <div class="function_text_li_text_title_content">
-                                                        <h2>
+                                                        <h2 data-i18n="function.group.title">
                                                             完全掌控的群组管理
                                                             <br>
                                                             群组功能既自由又有序。强大的管理员功能包括：
                                                         </h2>
                                                     </div>
                                                 </div>
-                                                <ul>
+                                                <ol>
                                                     <li>
                                                         <span><img src="./images/tick.png" alt="打勾"></span>
-                                                        <p>
+                                                        <p data-i18n="function.group.permissions">
                                                             多层级权限设定系统
                                                         </p>
                                                     </li>
                                                     <li>
                                                         <span><img src="./images/tick.png" alt="打勾"></span>
-                                                        <p>
+                                                        <p data-i18n="function.group.announcements">
                                                             置顶公告与重要提醒
                                                         </p>
                                                     </li>
                                                     <li>
                                                         <span><img src="./images/tick.png" alt="打勾"></span>
-                                                        <p>
+                                                        <p data-i18n="function.group.theme">
                                                             自定义群组主题背景
                                                         </p>
                                                     </li>
-                                                </ul>
-                                                <p class="function_text_li_text_title_p">
+                                                </ol>
+                                                <p data-i18n="function.group.balance"
+                                                    class="function_text_li_text_title_p">
                                                     成员也能自由分享想法，设置个人显示方式，真正做到自由与管理的完美平衡。群组人数可达千人，再多人也能流畅运行！
                                                 </p>
                                             </div>
@@ -434,7 +690,104 @@
                                     </div>
                                 </li>
 
-                                <li class="function_text_li dark_blue">
+
+                                <li class="function_text_li">
+                                    <div class="function_text_li_content">
+                                        <div class="function_text_li_img">
+                                            <div class="function_text_li_img_content">
+                                                <div class="function_text_li_img_svg">
+                                                    <div class="function_text_li_img_svg_content">
+                                                        <svg id="_圖層_1" data-name="圖層_1"
+                                                            xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                                            viewBox="0 0 80 80">
+                                                            <defs>
+                                                                <style>
+                                                                    .st0 {
+                                                                        stroke-linecap: round;
+                                                                        stroke-width: 5px;
+                                                                    }
+
+                                                                    .st0,
+                                                                    .st1 {
+                                                                        stroke-miterlimit: 10;
+                                                                    }
+
+                                                                    .st5 {
+                                                                        stroke-width: 1;
+                                                                        fill: none;
+                                                                        stroke: #177aff;
+                                                                    }
+
+
+                                                                    .st0,
+                                                                    .st1,
+                                                                    .st2 {
+                                                                        fill: none;
+                                                                        stroke: #177aff;
+                                                                    }
+                                                                </style>
+                                                            </defs>
+                                                            <g>
+                                                                <g>
+                                                                    <g>
+                                                                        <line class="st0" x1="50.11" y1="63.24"
+                                                                            x2="76.93" y2="36.42" />
+                                                                        <polyline class="st0"
+                                                                            points="63.42 36.42 76.93 36.42 76.93 49.93" />
+                                                                    </g>
+                                                                    <path class="st0"
+                                                                        d="M53.3,60.04l-8.18,8.18c-4.36,4.36-11.42,4.36-15.77,0l-5.62-5.62" />
+                                                                </g>
+                                                                <g>
+                                                                    <g>
+                                                                        <line class="st0" x1="30.68" y1="15.92"
+                                                                            x2="3.87" y2="42.74" />
+                                                                        <polyline class="st0"
+                                                                            points="17.38 42.74 3.87 42.74 3.87 29.23" />
+                                                                    </g>
+                                                                    <path class="st0"
+                                                                        d="M27.49,19.11l8.18-8.18c4.36-4.36,11.42-4.36,15.77,0l5.62,5.62" />
+                                                                </g>
+                                                            </g>
+                                                            <path class="st1" d="M76.93,13.09" />
+                                                            <path class="st5"
+                                                                d="M54.32,48.29l.08.04c-2.25,4.95-7.76,7.64-13.15,7.64-9.78,0-16.38-6.97-16.38-16.23s6.48-16.56,15.81-16.56,15.25,7.79,15.25,15.25c0,6.63-3.04,10.53-7.05,10.53-1.91,0-3.75-.94-4.87-2.32-1.09,1.42-2.81,2.14-4.8,2.14-3,0-6.11-1.95-6.11-5.47,0-4.05,3.75-6.22,9.67-6.37-.19-1.42-1.2-2.25-2.92-2.25-2.25,0-4.5,1.09-6,2.62l-.08-.07,1.61-6.56c1.01,1.05,2.29,0,5.17,0,4.38,0,6.9,3.03,6.9,6.48v5.73c0,1.65.79,2.51,1.87,2.51,1.31,0,3.04-1.84,3.04-6.93,0-6.93-5.21-11.95-11.69-11.95s-12.22,5.02-12.22,13.23,6.11,13.19,13.57,13.19c4.24,0,8.69-1.16,12.29-4.65ZM42.81,43.38v-3.41c-2.85.22-5.06,1.2-5.06,3.22,0,1.2,1.01,1.91,2.25,1.91,1.12,0,2.25-.64,2.81-1.72Z" />
+                                                        </svg>
+                                                    </div>
+                                                    <span data-i18n="function.account.title">快速帐号切换功能</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="function_text_li_text">
+                                            <div class="function_text_li_text_content">
+                                                <div class="function_text_li_text_title">
+                                                    <div class="function_text_li_text_title_content">
+                                                        <h2 data-i18n="function.account.title">
+                                                            「快速帐号切换」让你轻松管理多重身份！工作和生活完全区隔：
+                                                        </h2>
+                                                    </div>
+                                                </div>
+                                                <ol>
+                                                    <li>
+                                                        <span><img src="./images/tick.png" alt="打勾"></span>
+                                                        <p data-i18n="function.account.switch">
+                                                            一键切换不同帐号，无需重复登入登出
+                                                        </p>
+                                                    </li>
+                                                    <li>
+                                                        <span><img src="./images/tick.png" alt="打勾"></span>
+                                                        <p data-i18n="function.account.independent">
+                                                            每个帐号拥有独立的聊天记录与联络人
+                                                        </p>
+                                                    </li>
+                                                </ol>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+
+                                <li class="function_text_li">
                                     <div class="function_text_li_content">
                                         <div class="function_text_li_img">
                                             <div class="function_text_li_img_content">
@@ -446,7 +799,7 @@
                                                             <defs>
                                                                 <style>
                                                                     .st0 {
-                                                                        stroke-miterlimit: 10;
+                                                                        stroke-width: 3px;
                                                                     }
 
                                                                     .st0,
@@ -454,44 +807,48 @@
                                                                         fill: none;
                                                                         stroke: #177aff;
                                                                         stroke-linecap: round;
-                                                                        stroke-width: 3px;
-                                                                        stroke-dasharray: 200;
-                                                                        stroke-dashoffset: 200;
-                                                                        animation: circle-draw 10s linear infinite
+                                                                        stroke-miterlimit: 10;
                                                                     }
 
                                                                     .st1 {
-                                                                        stroke-linejoin: round;
-                                                                    }
-
-                                                                    @keyframes circle-draw_2 {
-                                                                        80% {
-                                                                            stroke-dashoffset: 0;
-                                                                        }
+                                                                        stroke-width: 2px;
                                                                     }
                                                                 </style>
                                                             </defs>
+                                                            <path class="st0"
+                                                                d="M41.24,46.23H8.18c-.54,0-.98-.44-.98-.98V11.07c0-.54.44-.98.98-.98h42.66c.54,0,.98.44.98.98v17.93" />
+                                                            <path class="st1"
+                                                                d="M41.24,41.97H13c-.53,0-.96-.41-.96-.93V15.28c0-.51.43-.93.96-.93h3.54" />
+                                                            <path class="st1"
+                                                                d="M21.58,14.35h23.59c.53,0,.96.41.96.93v13.72" />
+                                                            <path class="st0"
+                                                                d="M40.58,56.09H14.82c-1.48,0-2.68-.99-2.68-2.22v-5.94" />
+                                                            <path class="st0"
+                                                                d="M63.88,17.99h4.79c1.48,0,2.68.99,2.68,2.22v33.65c0,1.23-1.2,2.22-2.68,2.22h-3.76" />
+                                                            <line class="st0" x1="51.82" y1="17.99" x2="59.25"
+                                                                y2="17.99" />
                                                             <g>
-                                                                <g>
-                                                                    <line class="st0" x1="13.51" y1="48.68" x2="35.03"
-                                                                        y2="48.68" />
-                                                                    <g>
-                                                                        <line class="st0" x1="13.51" y1="41.34"
-                                                                            x2="40.08" y2="41.34" />
-                                                                        <line class="st0" x1="13.51" y1="56.02"
-                                                                            x2="26.03" y2="56.02" />
-                                                                    </g>
-                                                                </g>
-                                                                <path class="st1"
-                                                                    d="M42.76,33.9H10.83c-2.46,0-4.45,1.99-4.45,4.45v20.66c0,2.46,1.99,4.45,4.45,4.45h3.96v5.11l5.11-5.11h22.86c2.46,0,4.45-1.99,4.45-4.45v-20.66c0-2.46-1.99-4.45-4.45-4.45Z" />
+                                                                <circle class="st1" cx="29.08" cy="28.16" r="8.21" />
+                                                                <polyline class="st1"
+                                                                    points="24.5 28.2 27.53 31.23 33.67 25.09" />
                                                             </g>
-                                                            <path class="st1"
-                                                                d="M33.04,33.11c.41-2.03,2.21-3.55,4.36-3.55h31.93c2.46,0,4.45,1.99,4.45,4.45v20.66c0,2.46-1.99,4.45-4.45,4.45h-3.96s0,5.11,0,5.11l-5.11-5.11h-13.05" />
-                                                            <path class="st1"
-                                                                d="M22.38,33.9v-13.7c0-2.46,1.99-4.45,4.45-4.45h3.96s0-5.11,0-5.11l5.11,5.11h22.86c2.46,0,4.45,1.99,4.45,4.45v9.36" />
+                                                            <path class="st0"
+                                                                d="M40.58,56.09H7.59s-.86,5.83,6.57,5.83h3.15" />
+                                                            <path class="st0"
+                                                                d="M64.91,61.92h2.08c7.43,0,6.57-5.83,6.57-5.83h-8.65" />
+                                                            <path class="st0" d="M27.38,61.92h13.2" />
+                                                            <rect class="st0" x="41.24" y="29" width="23.68"
+                                                                height="40.07" rx="2.07" ry="2.07" />
+                                                            <line class="st1" x1="51.45" y1="33.9" x2="54.71"
+                                                                y2="33.9" />
+                                                            <g>
+                                                                <circle class="st1" cx="53.08" cy="49.03" r="6.84" />
+                                                                <polyline class="st1"
+                                                                    points="49.26 49.07 51.78 51.59 56.9 46.48" />
+                                                            </g>
                                                         </svg>
                                                     </div>
-                                                    <span>创新对话盒功能</span>
+                                                    <span data-i18n="function.cross_platform.title">跨平台无缝连接</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -499,78 +856,133 @@
                                             <div class="function_text_li_text_content">
                                                 <div class="function_text_li_text_title">
                                                     <div class="function_text_li_text_title_content">
-                                                        <h2>
-                                                            全新「对话盒」功能让你的聊天更加丰富多彩！在同一个对话视窗内创建多个分类主题，轻松整理不同话题：
+                                                        <h2 data-i18n="function.cross_platform.title">
+                                                            无论是智慧型手机、平板还是网页，JetGram都能完美运行：
                                                         </h2>
                                                     </div>
                                                 </div>
-                                                <ul>
+                                                <ol>
                                                     <li>
                                                         <span><img src="./images/tick.png" alt="打勾"></span>
-                                                        <p>
-                                                            工作讨论盒：专注于专业交流
+                                                        <p data-i18n="function.cross_platform.ios_android">
+                                                            iOS与Android双平台支援
                                                         </p>
                                                     </li>
                                                     <li>
                                                         <span><img src="./images/tick.png" alt="打勾"></span>
-                                                        <p>
-                                                            生活分享盒：轻松分享日常点滴
+                                                        <p data-i18n="function.cross_platform.web">
+                                                            网页版本让你在任何设备上都能使用
                                                         </p>
                                                     </li>
                                                     <li>
                                                         <span><img src="./images/tick.png" alt="打勾"></span>
-                                                        <p>
-                                                            档案资料盒：集中存放重要文件
+                                                        <p data-i18n="function.cross_platform.sync">
+                                                            云端同步技术，所有装置即时更新最新讯息
                                                         </p>
                                                     </li>
                                                     <li>
                                                         <span><img src="./images/tick.png" alt="打勾"></span>
-                                                        <p>
-                                                            重要提醒盒：不会被其他讯息淹没的重要事项
+                                                        <p data-i18n="function.cross_platform.multi_login">
+                                                            所有平台皆可同时登入
                                                         </p>
                                                     </li>
-                                                </ul>
-                                                <p class="function_text_li_text_title_p">
-                                                    对话盒之间可以无缝切换，让你的聊天井然有序，再也不用费力翻找旧讯息！
-                                                </p>
-                                                <div class="function_text_li_text_title">
-                                                    <div class="function_text_li_text_title_content">
-                                                        <h2>
-                                                            完全掌控的群组管理
-                                                            <br>
-                                                            群组功能既自由又有序。强大的管理员功能包括：
-                                                        </h2>
-                                                    </div>
-                                                </div>
-                                                <ul>
-                                                    <li>
-                                                        <span><img src="./images/tick.png" alt="打勾"></span>
-                                                        <p>
-                                                            多层级权限设定系统
-                                                        </p>
-                                                    </li>
-                                                    <li>
-                                                        <span><img src="./images/tick.png" alt="打勾"></span>
-                                                        <p>
-                                                            置顶公告与重要提醒
-                                                        </p>
-                                                    </li>
-                                                    <li>
-                                                        <span><img src="./images/tick.png" alt="打勾"></span>
-                                                        <p>
-                                                            自定义群组主题背景
-                                                        </p>
-                                                    </li>
-                                                </ul>
-                                                <p class="function_text_li_text_title_p">
-                                                    成员也能自由分享想法，设置个人显示方式，真正做到自由与管理的完美平衡。群组人数可达千人，再多人也能流畅运行！
-                                                </p>
+                                                </ol>
                                             </div>
                                         </div>
                                     </div>
                                 </li>
 
-                                <li class="function_text_li dark_blue"></li>
+
+                                <li class="function_text_li">
+                                    <div class="function_text_li_content">
+                                        <div class="function_text_li_img">
+                                            <div class="function_text_li_img_content">
+                                                <div class="function_text_li_img_svg">
+                                                    <div class="function_text_li_img_svg_content">
+                                                        <svg id="function_text_li_img" data-name="function_text_li_img"
+                                                            xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                                            viewBox="0 0 80 80">
+                                                            <defs>
+                                                                <style>
+                                                                    .st0 {
+                                                                        stroke-width: 2px;
+                                                                    }
+
+                                                                    .st0,
+                                                                    .st1 {
+                                                                        fill: none;
+                                                                        stroke: #177aff;
+                                                                        stroke-linecap: round;
+                                                                        stroke-linejoin: round;
+                                                                    }
+
+                                                                    .st1 {
+                                                                        stroke-width: 3px;
+                                                                    }
+                                                                </style>
+                                                            </defs>
+                                                            <g>
+                                                                <rect class="st1" x="29.77" y="53.59" width="21.25"
+                                                                    height="7.43" />
+                                                                <polygon class="st1"
+                                                                    points="51.02 61.01 40.4 61.01 29.77 61.01 26.5 65.68 40.4 65.68 54.3 65.68 51.02 61.01" />
+                                                                <polyline class="st1"
+                                                                    points="26.5 65.68 26.5 70.92 54.3 70.92 54.3 65.68" />
+                                                            </g>
+                                                            <g>
+                                                                <rect class="st1" x="7.56" y="8.23" width="65.67"
+                                                                    height="45.36" />
+                                                                <line class="st1" x1="7.56" y1="41.89" x2="65.75"
+                                                                    y2="41.89" />
+                                                            </g>
+                                                            <circle class="st0" cx="40.4" cy="47.74" r="2.41" />
+                                                            <g>
+                                                                <line class="st0" x1="38.37" y1="31.88" x2="45.25"
+                                                                    y2="19.77" />
+                                                                <g>
+                                                                    <path class="st1"
+                                                                        d="M23.27,19.77v8.68c0,1.9-1.54,3.44-3.44,3.44h0c-1.9,0-3.44-1.54-3.44-3.44v-8.68" />
+                                                                    <line class="st1" x1="27.46" y1="31.88" x2="34.34"
+                                                                        y2="19.77" />
+                                                                    <line class="st1" x1="34.34" y1="31.88" x2="27.46"
+                                                                        y2="19.77" />
+                                                                </g>
+                                                                <g>
+                                                                    <path class="st1"
+                                                                        d="M59,19.77v8.68c0,1.9-1.54,3.44-3.44,3.44h0c-1.9,0-3.44-1.54-3.44-3.44v-8.68" />
+                                                                    <line class="st1" x1="64.4" y1="31.88" x2="64.4"
+                                                                        y2="19.77" />
+                                                                </g>
+                                                            </g>
+                                                        </svg>
+                                                    </div>
+                                                    <span data-i18n="function.ui.title">精心设计的友善介面</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="function_text_li_text">
+                                            <div class="function_text_li_text_content">
+                                                <div class="function_text_li_text_title">
+                                                    <div class="function_text_li_text_title_content">
+                                                        <h2 data-i18n="function.ui.title">
+                                                            简洁明了的操作介面经过使用者体验专家精心打造：
+                                                        </h2>
+                                                    </div>
+                                                </div>
+                                                <ol>
+                                                    <li>
+                                                        <span><img src="./images/tick.png" alt="打勾"></span>
+                                                        <p data-i18n="function.ui.elderly">
+                                                            特殊的长者友善模式，放大字体与简化功能
+                                                        </p>
+                                                    </li>
+                                                </ol>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+
                             </ul>
                         </div>
                     </div>
@@ -585,14 +997,46 @@
 
     <!-- ---------------------------------------------------------------------------------------------- -->
 
-
+    <!-- download -->
+    <div class="download" id="download">
+        <div class="download_content">
+            <div class="download_img">
+                <div class="download_img_content">
+                    <img src="./images/download_image.png" alt="download">
+                </div>
+            </div>
+            <div class="download_text">
+                <div class="download_text_content">
+                    <div class="download_text_title">
+                        <div class="download_text_title_content">
+                            <h2 data-i18n="download.title">立即下载JetGram，体验真正安全、自由且高效的通讯方式！</h2>
+                        </div>
+                    </div>
+                    <div class="download_text_button">
+                        <div class="download_text_button_content">
+                            <a href="https://apps.apple.com/tw/app/jetgram/id6485623074" target="_blank">
+                                <img src="./images/app.png" alt="apple_button">
+                            </a>
+                            <a href="https://d2n5kh9hkszzny.cloudfront.net/aceChatV2_prd_1.1.6_release_2025050214.apk"
+                                target="_blank">
+                                <img src="./images/and.png" alt="and_button">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="download_button">
+            <div class="download_button_content"></div>
+        </div>
+    </div>
 
 
     <!-- ---------------------------------------------------------------------------------------------- -->
 
     <div class="footer" id="connect">
         <div class="footer_content">
-            <p>Copyright © 2020-2025 JetGram. All Rights Reserved.</p>
+            <p data-i18n="footer.copyright">Copyright © 2020-2025 JetGram. All Rights Reserved.</p>
         </div>
     </div>
 
@@ -606,16 +1050,204 @@
         // 翻譯文本
         const translations = {
             "en": {
-
+                "nav.privacy": "Privacy",
+                "nav.function": "Features",
+                "nav.download": "Download",
+                "privacy.title": "Privacy Protection Beyond Imagination",
+                "privacy.content": "JetGram is built on the highest standards of privacy protection technology, ensuring your every message is perfectly protected. Our military-grade end-to-end encryption ensures that only you and your chat partner can see the content of your communication, with absolutely no possibility of third-party access, truly achieving worry-free privacy. The special 'Auto-Delete' mode makes messages disappear immediately after reading, leaving no trace.",
+                "function.auto_delete.title": "Thoughtful Auto-Delete Feature",
+                "function.auto_delete.content": "The unique 'Auto-Timed Delete' feature allows you to set the existence time of messages. After expiration, messages automatically disappear without leaving a trace. Whether it's sensitive topics or temporary communication, high privacy is maintained. You can set different deletion times for different conversations, from days to months, completely customized according to your needs!",
+                "function.chat_box.title": "Innovative Chat Box Feature",
+                "function.chat_box.content": "The new 'Chat Box' feature makes your conversations more colorful! Create multiple categorized topics within the same chat window, easily organizing different subjects:",
+                "function.chat_box.work": "Work Discussion Box: Focus on professional communication",
+                "function.chat_box.life": "Life Sharing Box: Easily share daily moments",
+                "function.chat_box.files": "File Archive Box: Centralize important documents",
+                "function.chat_box.reminders": "Important Reminders Box: Important matters that won't be buried by other messages",
+                "function.chat_box.switch": "Seamless switching between chat boxes keeps your conversations organized, no more struggling to find old messages!",
+                "function.group.title": "Complete Group Management Control",
+                "function.group.content": "Group features are both free and organized. Powerful admin features include:",
+                "function.group.permissions": "Multi-level permission setting system",
+                "function.group.announcements": "Pinned announcements and important reminders",
+                "function.group.theme": "Customizable group theme background",
+                "function.group.balance": "Members can freely share ideas and set personal display methods, truly achieving the perfect balance between freedom and management. Group size can reach thousands, running smoothly even with many members!",
+                "function.quality.title": "High-Quality Communication Experience",
+                "function.quality.content": "Support for ultra-high resolution voice and video calls, whether one-on-one or multi-person meetings, enjoy a communication experience comparable to face-to-face:",
+                "function.quality.low_latency": "Low latency transmission, achieving true real-time dialogue",
+                "function.account.title": "Quick Account Switching Feature",
+                "function.account.content": "'Quick Account Switching' lets you easily manage multiple identities! Completely separate work and life:",
+                "function.account.switch": "One-click switching between different accounts, no need to repeatedly log in and out",
+                "function.account.independent": "Each account has independent chat history and contacts",
+                "function.media.title": "Diverse Media Sharing",
+                "function.media.content": "Easily share and manage various media content, JetGram's media processing engine makes sharing unprecedentedly simple:",
+                "function.media.high_res": "Ultra-high resolution images without distortion, photography works in original quality",
+                "function.media.fast": "Fast transmission, no long waiting",
+                "function.media.voice": "Professional voice messages with one-click recording, clear sound quality like being there",
+                "function.media.file_size": "Single file transfer up to 100MB, goodbye to the hassle of splitting files",
+                "function.cross_platform.title": "Seamless Cross-Platform Connection",
+                "function.cross_platform.content": "Whether it's smartphones, tablets, or web pages, JetGram runs perfectly:",
+                "function.cross_platform.ios_android": "iOS and Android dual platform support",
+                "function.cross_platform.web": "Web version lets you use it on any device",
+                "function.cross_platform.sync": "Cloud sync technology, all devices instantly update with latest messages",
+                "function.cross_platform.multi_login": "All platforms can be logged in simultaneously",
+                "function.feedback.title": "Instant Feedback",
+                "function.feedback.content": "Built-in feedback system ensures your voice is heard:",
+                "function.feedback.report": "Intuitive problem reporting function, one-click submission for any issues",
+                "function.feedback.survey": "Monthly user experience surveys, continuously optimizing the product",
+                "function.ui.title": "Carefully Designed User-Friendly Interface",
+                "function.ui.content": "Clear and concise operation interface carefully crafted by user experience experts:",
+                "function.ui.elderly": "Special elderly-friendly mode with enlarged fonts and simplified functions",
+                "download.title": "Download JetGram now and experience truly secure, free, and efficient communication!",
+                "footer.copyright": "Copyright © 2020-2025 JetGram. All Rights Reserved."
             },
             "zh-CN": {
-
+                "nav.privacy": "隐私保护",
+                "nav.function": "功能",
+                "nav.download": "下载",
+                "privacy.title": "超越想象的隐私保护",
+                "privacy.content": "JetGram以最高规格的隐私保护技术为基础，让你的每一则讯息都受到完善保护。我们的军事级别端对端加密确保只有你和聊天对象能够看到交流的内容，第三方绝对无法窥探，真正做到私密无忧。还有特殊「自动删除」模式，一旦读取完毕，讯息立即消失，不留任何痕迹。",
+                "function.auto_delete.title": "贴心的自动删除功能",
+                "function.auto_delete.content": "独特的「自动限时删除」功能让你设定讯息的存在时间，过期后讯息会自动消失，不留痕迹。无论是敏感话题或是临时交流，都能保持高度隐私。你可以为不同对话设定不同的删除时间，从几天到几个月都可以，完全按照你的需求客制化！",
+                "function.chat_box.title": "创新对话盒功能",
+                "function.chat_box.content": "全新「对话盒」功能让你的聊天更加丰富多彩！在同一个对话视窗内创建多个分类主题，轻松整理不同话题：",
+                "function.chat_box.work": "工作讨论盒：专注于专业交流",
+                "function.chat_box.life": "生活分享盒：轻松分享日常点滴",
+                "function.chat_box.files": "档案资料盒：集中存放重要文件",
+                "function.chat_box.reminders": "重要提醒盒：不会被其他讯息淹没的重要事项",
+                "function.chat_box.switch": "对话盒之间可以无缝切换，让你的聊天井然有序，再也不用费力翻找旧讯息！",
+                "function.group.title": "完全掌控的群组管理",
+                "function.group.content": "群组功能既自由又有序。强大的管理员功能包括：",
+                "function.group.permissions": "多层级权限设定系统",
+                "function.group.announcements": "置顶公告与重要提醒",
+                "function.group.theme": "自定义群组主题背景",
+                "function.group.balance": "成员也能自由分享想法，设置个人显示方式，真正做到自由与管理的完美平衡。群组人数可达千人，再多人也能流畅运行！",
+                "function.quality.title": "高品质通讯体验",
+                "function.quality.content": "支援超高解析度语音与视讯通话，无论是一对一或是多人会议，都能享有媲美面对面的通讯体验：",
+                "function.quality.low_latency": "低延迟传输，实现真正即时对话",
+                "function.account.title": "快速帐号切换功能",
+                "function.account.content": "「快速帐号切换」让你轻松管理多重身份！工作和生活完全区隔：",
+                "function.account.switch": "一键切换不同帐号，无需重复登入登出",
+                "function.account.independent": "每个帐号拥有独立的聊天记录与联络人",
+                "function.media.title": "多元媒体分享",
+                "function.media.content": "轻松分享并管理各种媒体内容，JetGram的媒体处理引擎让分享变得前所未有的简单：",
+                "function.media.high_res": "超高解析度图片不失真，摄影作品原汁原味",
+                "function.media.fast": "快速传输，无需漫长等待",
+                "function.media.voice": "专业级语音讯息一键录制，音质清晰如现场",
+                "function.media.file_size": "单档传输最大100MB，告别分割档案的麻烦",
+                "function.cross_platform.title": "跨平台无缝连接",
+                "function.cross_platform.content": "无论是智慧型手机、平板还是网页，JetGram都能完美运行：",
+                "function.cross_platform.ios_android": "iOS与Android双平台支援",
+                "function.cross_platform.web": "网页版本让你在任何设备上都能使用",
+                "function.cross_platform.sync": "云端同步技术，所有装置即时更新最新讯息",
+                "function.cross_platform.multi_login": "所有平台皆可同时登入",
+                "function.feedback.title": "即时意见回馈",
+                "function.feedback.content": "内建的意见回馈系统让你的声音被重视：",
+                "function.feedback.report": "直觉式问题回报功能，遇到任何问题一键提交",
+                "function.feedback.survey": "每月使用者体验调查，持续优化产品",
+                "function.ui.title": "精心设计的友善介面",
+                "function.ui.content": "简洁明了的操作介面经过使用者体验专家精心打造：",
+                "function.ui.elderly": "特殊的长者友善模式，放大字体与简化功能",
+                "download.title": "立即下载JetGram，体验真正安全、自由且高效的通讯方式！",
+                "footer.copyright": "Copyright © 2020-2025 JetGram. All Rights Reserved."
             },
             "ja": {
-
+                "nav.privacy": "プライバシー",
+                "nav.function": "機能",
+                "nav.download": "ダウンロード",
+                "privacy.title": "想像を超えるプライバシー保護",
+                "privacy.content": "JetGramは最高レベルのプライバシー保護技術を基盤に、あなたのメッセージを完璧に保護します。軍事レベルのエンドツーエンド暗号化により、あなたとチャット相手のみがコミュニケーションの内容を確認でき、第三者によるアクセスは完全に不可能です。特別な「自動削除」モードにより、読み終わったメッセージは即座に消去され、痕跡を残しません。",
+                "function.auto_delete.title": "思いやりのある自動削除機能",
+                "function.auto_delete.content": "ユニークな「自動タイマー削除」機能で、メッセージの存在時間を設定できます。期限切れ後、メッセージは自動的に消去され、痕跡を残しません。機密トピックや一時的なコミュニケーションでも、高いプライバシーを維持できます。会話ごとに異なる削除時間を設定でき、数日から数ヶ月まで、あなたのニーズに完全にカスタマイズ可能です！",
+                "function.chat_box.title": "革新的なチャットボックス機能",
+                "function.chat_box.content": "新しい「チャットボックス」機能で、あなたの会話をより豊かに！同じチャットウィンドウ内で複数のカテゴリトピックを作成し、異なる主題を簡単に整理：",
+                "function.chat_box.work": "仕事の議論ボックス：専門的なコミュニケーションに焦点",
+                "function.chat_box.life": "生活共有ボックス：日常の瞬間を簡単に共有",
+                "function.chat_box.files": "ファイルアーカイブボックス：重要な文書を一元管理",
+                "function.chat_box.reminders": "重要なリマインダーボックス：他のメッセージに埋もれない重要な事項",
+                "function.chat_box.switch": "チャットボックス間のシームレスな切り替えで、会話を整理整頓し、古いメッセージを探す手間がなくなります！",
+                "function.group.title": "完全なグループ管理制御",
+                "function.group.content": "グループ機能は自由かつ秩序があります。強力な管理者機能には以下が含まれます：",
+                "function.group.permissions": "マルチレベル権限設定システム",
+                "function.group.announcements": "固定されたお知らせと重要なリマインダー",
+                "function.group.theme": "カスタマイズ可能なグループテーマ背景",
+                "function.group.balance": "メンバーは自由にアイデアを共有し、個人表示方法を設定でき、自由と管理の完璧なバランスを実現します。グループサイズは数千人まで拡大可能で、多くのメンバーでもスムーズに動作します！",
+                "function.quality.title": "高品質なコミュニケーション体験",
+                "function.quality.content": "超高解像度の音声とビデオ通話をサポートし、1対1または複数人での会議でも、対面に匹敵するコミュニケーション体験を楽しめます：",
+                "function.quality.low_latency": "低遅延伝送で、真のリアルタイム対話を実現",
+                "function.account.title": "クイックアカウント切り替え機能",
+                "function.account.content": "'クイックアカウント切り替え'で複数のアイデンティティを簡単に管理！仕事と生活を完全に分離：",
+                "function.account.switch": "異なるアカウントをワンクリックで切り替え、ログイン・ログアウトの繰り返しが不要",
+                "function.account.independent": "各アカウントは独立したチャット履歴と連絡先を持つ",
+                "function.media.title": "多様なメディア共有",
+                "function.media.content": "様々なメディアコンテンツを簡単に共有・管理し、JetGramのメディア処理エンジンで共有がかつてないほど簡単に：",
+                "function.media.high_res": "超高解像度画像の歪みなし、写真作品をオリジナル品質で",
+                "function.media.fast": "高速伝送で、長い待ち時間なし",
+                "function.media.voice": "ワンクリックで録音できるプロフェッショナルな音声メッセージ、現場のような鮮明な音質",
+                "function.media.file_size": "単一ファイル転送最大100MB、ファイル分割の手間を解消",
+                "function.cross_platform.title": "シームレスなクロスプラットフォーム接続",
+                "function.cross_platform.content": "スマートフォン、タブレット、ウェブページなど、JetGramは完璧に動作します：",
+                "function.cross_platform.ios_android": "iOSとAndroidのデュアルプラットフォームサポート",
+                "function.cross_platform.web": "ウェブバージョンでどのデバイスでも使用可能",
+                "function.cross_platform.sync": "クラウド同期技術で、すべてのデバイスが最新メッセージを即時更新",
+                "function.cross_platform.multi_login": "すべてのプラットフォームで同時にログイン可能",
+                "function.feedback.title": "インスタントフィードバック",
+                "function.feedback.content": "内蔵のフィードバックシステムで、あなたの声が確実に届きます：",
+                "function.feedback.report": "直感的な問題報告機能、あらゆる問題をワンクリックで送信",
+                "function.feedback.survey": "月次ユーザー体験調査で、製品を継続的に最適化",
+                "function.ui.title": "慎重に設計されたユーザーフレンドリーなインターフェース",
+                "function.ui.content": "ユーザー体験の専門家が慎重に設計した、明確で簡潔な操作インターフェース：",
+                "function.ui.elderly": "特別な高齢者向けモード、拡大フォントと簡略化された機能",
+                "download.title": "今すぐJetGramをダウンロードして、真に安全で自由、効率的なコミュニケーションを体験してください！",
+                "footer.copyright": "Copyright © 2020-2025 JetGram. All Rights Reserved."
             },
             "pt": {
-
+                "nav.privacy": "Privacidade",
+                "nav.function": "Recursos",
+                "nav.download": "Download",
+                "privacy.title": "Proteção de Privacidade Além da Imaginação",
+                "privacy.content": "O JetGram é construído com a mais alta tecnologia de proteção de privacidade, garantindo que cada uma de suas mensagens seja perfeitamente protegida. Nossa criptografia de ponta a ponta de nível militar garante que apenas você e seu parceiro de chat possam ver o conteúdo da comunicação, sem qualquer possibilidade de acesso por terceiros, verdadeiramente alcançando privacidade sem preocupações. O modo especial 'Auto-Exclusão' faz as mensagens desaparecerem imediatamente após a leitura, sem deixar rastros.",
+                "function.auto_delete.title": "Recurso de Auto-Exclusão Atencioso",
+                "function.auto_delete.content": "O recurso único 'Auto-Exclusão Temporizada' permite definir o tempo de existência das mensagens. Após a expiração, as mensagens desaparecem automaticamente sem deixar rastros. Seja para tópicos sensíveis ou comunicação temporária, a alta privacidade é mantida. Você pode definir diferentes tempos de exclusão para diferentes conversas, de dias a meses, completamente personalizado de acordo com suas necessidades!",
+                "function.chat_box.title": "Recurso Inovador de Caixa de Chat",
+                "function.chat_box.content": "O novo recurso 'Caixa de Chat' torna suas conversas mais coloridas! Crie múltiplos tópicos categorizados dentro da mesma janela de chat, organizando facilmente diferentes assuntos:",
+                "function.chat_box.work": "Caixa de Discussão de Trabalho: Foco na comunicação profissional",
+                "function.chat_box.life": "Caixa de Compartilhamento de Vida: Compartilhe facilmente momentos diários",
+                "function.chat_box.files": "Caixa de Arquivo de Arquivos: Centralize documentos importantes",
+                "function.chat_box.reminders": "Caixa de Lembretes Importantes: Assuntos importantes que não serão enterrados por outras mensagens",
+                "function.chat_box.switch": "Alternância perfeita entre caixas de chat mantém suas conversas organizadas, sem mais dificuldade para encontrar mensagens antigas!",
+                "function.group.title": "Controle Completo de Gerenciamento de Grupo",
+                "function.group.content": "Os recursos de grupo são livres e organizados. Recursos poderosos de administrador incluem:",
+                "function.group.permissions": "Sistema de configuração de permissões multinível",
+                "function.group.announcements": "Anúncios fixos e lembretes importantes",
+                "function.group.theme": "Plano de fundo de tema de grupo personalizável",
+                "function.group.balance": "Os membros podem compartilhar ideias livremente e definir métodos de exibição pessoal, verdadeiramente alcançando o equilíbrio perfeito entre liberdade e gerenciamento. O tamanho do grupo pode chegar a milhares, funcionando suavemente mesmo com muitos membros!",
+                "function.quality.title": "Experiência de Comunicação de Alta Qualidade",
+                "function.quality.content": "Suporte para chamadas de voz e vídeo de ultra-alta resolução, seja um para um ou reuniões com várias pessoas, desfrute de uma experiência de comunicação comparável ao face a face:",
+                "function.quality.low_latency": "Transmissão de baixa latência, alcançando diálogo verdadeiramente em tempo real",
+                "function.account.title": "Recurso de Alternância Rápida de Conta",
+                "function.account.content": "'Alternância Rápida de Conta' permite gerenciar facilmente múltiplas identidades! Separe completamente trabalho e vida:",
+                "function.account.switch": "Alternância com um clique entre diferentes contas, sem necessidade de entrar e sair repetidamente",
+                "function.account.independent": "Cada conta tem histórico de chat e contatos independentes",
+                "function.media.title": "Compartilhamento Diversificado de Mídia",
+                "function.media.content": "Compartilhe e gerencie facilmente vários conteúdos de mídia, o motor de processamento de mídia do JetGram torna o compartilhamento sem precedentes simples:",
+                "function.media.high_res": "Imagens de ultra-alta resolução sem distorção, trabalhos fotográficos em qualidade original",
+                "function.media.fast": "Transmissão rápida, sem longa espera",
+                "function.media.voice": "Mensagens de voz profissionais com gravação em um clique, qualidade de som clara como estar lá",
+                "function.media.file_size": "Transferência de arquivo único até 100MB, adeus ao incômodo de dividir arquivos",
+                "function.cross_platform.title": "Conexão Perfeita entre Plataformas",
+                "function.cross_platform.content": "Seja smartphones, tablets ou páginas web, o JetGram funciona perfeitamente:",
+                "function.cross_platform.ios_android": "Suporte para plataformas duplas iOS e Android",
+                "function.cross_platform.web": "Versão web permite usar em qualquer dispositivo",
+                "function.cross_platform.sync": "Tecnologia de sincronização em nuvem, todos os dispositivos atualizam instantaneamente com as últimas mensagens",
+                "function.cross_platform.multi_login": "Todas as plataformas podem ser acessadas simultaneamente",
+                "function.feedback.title": "Feedback Instantâneo",
+                "function.feedback.content": "Sistema de feedback integrado garante que sua voz seja ouvida:",
+                "function.feedback.report": "Função intuitiva de relatório de problemas, envio com um clique para qualquer problema",
+                "function.feedback.survey": "Pesquisas mensais de experiência do usuário, otimizando continuamente o produto",
+                "function.ui.title": "Interface Amigável Cuidadosamente Projetada",
+                "function.ui.content": "Interface de operação clara e concisa cuidadosamente elaborada por especialistas em experiência do usuário:",
+                "function.ui.elderly": "Modo especial amigável para idosos com fontes ampliadas e funções simplificadas",
+                "download.title": "Baixe o JetGram agora e experimente uma comunicação verdadeiramente segura, livre e eficiente!",
+                "footer.copyright": "Copyright © 2020-2025 JetGram. All Rights Reserved."
             }
         };
 
