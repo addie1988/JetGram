@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="./images/jet.png" />
+    <title>JET</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="spacer" id="spacer"></div>
+    <div class="header" id="header">
+        <div class="header_content">
+            <div class="logo">
+                <div class="logo_content">
+                    <a href="./index.html">
+                        <img src="./images/logo.png" alt="Logo">
+                    </a>
+                </div>
+            </div>
+            <div class="menu_language">
+                <div class="menu_language_content">
+                    <div class="hamburger" id="hamburger">☰</div>
+                    <div class="menu nav-menu" id="nav-menu">
+                        <div class="menu_content">
+                            <ul>
+                                <li><a class="scroll-link" href="#privacy">保護隱私</a></li>
+                                <li><a class="scroll-link" href="#function">功能</a></li>
+                                <li><a class="scroll-link" href="#download">下載</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="language">
+                        <div class="language_content">
+                            <a href="#" class="dropdown-toggle" onclick="toggleDropdown(event)">
+                                <img id="languageIcon" src="./images/icon_1.svg" alt="English">
+                            </a>
+                            <div id="dropdownMenu" class="dropdown-content">
+                                <span onclick="changeLanguage('en')">
+                                    <img src="./images/icon_1.svg" alt="English">
+                                    <p>English</p>
+                                </span>
+                                <span onclick="changeLanguage('zh-CN')">
+                                    <img src="./images/icon_2.svg" alt="简体中文">
+                                    <p>简体中文</p>
+                                </span>
+                                <span onclick="changeLanguage('ja')">
+                                    <img src="./images/icon_3.svg" alt="日文">
+                                    <p>日文</p>
+                                </span>
+                                <span onclick="changeLanguage('pt')">
+                                    <img src="./images/icon_4.svg" alt="Portuguese">
+                                    <p>Português</p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------------------------------------------------------------------------------- -->
+
+    <!-- banner -->
+    <div class="banner">
+        <div class="banner_content">
+            <div class="banner_main">
+                <div class="banner_main_content">
+                    <div class="banner_main_img">
+                        <div class="banner_main_img_content">
+                            <img src="./images/banner_main_img.png" alt="Banner">
+                        </div>
+                    </div>
+                    <div class="banner_main_button">
+                        <div class="banner_main_button_content">
+                            <div class="banner_main_button_img">
+                                <div class="banner_main_button_img_content">
+                                    <img src="./images/banner_main_button_img_1.png" alt="">
+                                    <img src="./images/banner_main_button_img_2.gif" alt="">
+                                    <img src="./images/banner_main_button_img_3.png" alt="">
+                                </div>
+                            </div>
+                            <div class="banner_main_button_dow">
+                                <div class="banner_main_button_dow_content">
+                                    <a href="https://apps.apple.com/tw/app/jetgram/id6485623074" target="_blank">
+                                        <img src="./images/app.png" alt="apple_button">
+                                    </a>
+                                    <a href="https://d2n5kh9hkszzny.cloudfront.net/aceChatV2_prd_1.1.6_release_2025050214.apk"
+                                        target="_blank">
+                                        <img src="./images/and.png" alt="and_button">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="banner_img">
+                <div class="banner_img_content">
+                    <img src="./images/Banner.jpg" alt="Banner">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------------------------------------------------------------------------------- -->
+
+    <!-- main -->
+    <div class="main">
+        <div class="main_content">
+
+
+            <div class="privacy">
+                <div class="privacy_content">
+                    <div class="privacy_img">
+                        <div class="privacy_img_content">
+                            <img src="./images/privacy_img.png" alt="privacy_img">
+                        </div>
+                    </div>
+                    <div class="privacy_text">
+                        <div class="privacy_text_content">
+                            <svg id="privacy_text" data-name="privacy_text" xmlns="http://www.w3.org/2000/svg"
+                                version="1.1" viewBox="0 0 80 80">
+                                <defs>
+                                    <style>
+                                        .st0,
+                                        .st1 {
+                                            stroke-dasharray: 200;
+                                            stroke-dashoffset: 200;
+                                            animation: circle-draw 10s linear infinite
+                                        }
+
+                                        .st0,
+                                        .st1,
+                                        .st2 {
+                                            fill: none;
+                                            stroke: #177aff;
+                                        }
+
+                                        .st0,
+                                        .st2 {
+                                            stroke-width: 2px;
+                                        }
+
+                                        .st1 {
+                                            stroke-width: 3px;
+                                        }
+
+                                        .st2 {
+                                            stroke-miterlimit: 10;
+                                        }
+
+                                        .st1 {
+                                            stroke: #0084FF;
+                                        }
+
+                                        @keyframes circle-draw {
+                                            80% {
+                                                stroke-dashoffset: 0;
+                                            }
+                                        }
+                                    </style>
+                                </defs>
+                                <path class="st1"
+                                    d="M57.86,51.09v9.74c0,2.93-2.37,5.3-5.3,5.3h-4.72s0,6.09,0,6.09l-6.09-6.09H14.5c-2.93,0-5.3-2.37-5.3-5.3v-24.63c0-2.93,2.37-5.3,5.3-5.3h20.01" />
+                                <g>
+                                    <g>
+                                        <rect class="st0" x="44.36" y="23.69" width="17.3" height="17.3" />
+                                        <path class="st2"
+                                            d="M56.09,31.01c0-1.7-1.38-3.08-3.08-3.08s-3.08,1.38-3.08,3.08c0,1.04.52,1.97,1.32,2.52v3.21h3.53v-3.21c.8-.56,1.32-1.48,1.32-2.52Z" />
+                                        <path class="st0"
+                                            d="M47.94,22.86c0-2.8,2.27-5.07,5.07-5.07s5.07,2.27,5.07,5.07" />
+                                    </g>
+                                    <path class="st1"
+                                        d="M53.77,6.91h-1.52s-4.31,8.13-17.19,11.4v11.22c0,20.49,17.95,22.62,17.95,22.62,0,0,17.95-2.13,17.95-22.62v-11.22c-12.88-3.27-17.19-11.4-17.19-11.4Z" />
+                                </g>
+                                <circle class="st0" cx="20.08" cy="48.5" r="2.59" />
+                                <circle class="st0" cx="31.8" cy="48.5" r="2.59" />
+                            </svg>
+                            <h2>超越想像的隐私保护</h2>
+                            <p>
+                                JetGram以最高规格的隐私保护技术为基础，让你的每一则讯息都受到完善保护。我们的军事级别端对端加密确保只有你和聊天对象能够看到交流的内容，第三方绝对无法窥探，真正做到私密无忧。还有特殊「自动删除」模式，一旦读取完毕，讯息立即消失，不留任何痕迹。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="function">
+                <div class="function_content">
+
+
+                    <div class="function_title">
+                        <div class="function_title_content">
+                            <img src="./images/function_title.png" alt="title_img">
+                        </div>
+                    </div>
+
+
+                    <div class="function_text">
+                        <div class="function_text_content">
+                            <ul>
+                                <li class="function_text_li">
+                                    <div class="function_text_li_content">
+                                        <div class="function_text_li_img">
+                                            <div class="function_text_li_img_content">
+                                                <div class="function_text_li_img_svg">
+                                                    <div class="function_text_li_img_svg_content">
+                                                        <svg id="function_text_li" data-name="function_text_li"
+                                                            xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                                            viewBox="0 0 80 80">
+
+                                                            <defs>
+                                                                <style>
+                                                                    .st0,
+                                                                    .st1 {
+                                                                        stroke-width: 2px;
+                                                                    }
+
+                                                                    .st0,
+                                                                    .st1,
+                                                                    .st2 {
+                                                                        fill: none;
+                                                                        stroke: #177aff;
+                                                                        stroke-miterlimit: 10;
+                                                                        stroke-dasharray: 200;
+                                                                        stroke-dashoffset: 200;
+                                                                        animation: circle-draw 10s linear infinite
+                                                                    }
+
+                                                                    .st1 {
+                                                                        stroke-linecap: round;
+                                                                    }
+
+                                                                    .st2 {
+                                                                        stroke-width: 3px;
+                                                                    }
+
+                                                                    @keyframes circle-draw_2 {
+                                                                        80% {
+                                                                            stroke-dashoffset: 0;
+                                                                        }
+                                                                    }
+                                                                </style>
+                                                            </defs>
+                                                            <path class="st2"
+                                                                d="M11.07,13.99h46.88c2.16,0,3.92,1.75,3.92,3.92v5.95H7.15v-5.95c0-2.16,1.75-3.92,3.92-3.92Z" />
+                                                            <path class="st2"
+                                                                d="M24.04,8.1h20.94c2.16,0,3.92,1.75,3.92,3.92v1.97h-28.77v-1.97c0-2.16,1.75-3.92,3.92-3.92Z" />
+                                                            <path class="st2"
+                                                                d="M56.51,23.85H12.51l3.7,43.26c0,2.16,1.75,3.92,3.92,3.92h28.77" />
+                                                            <g>
+                                                                <circle class="st2" cx="49.41" cy="47.44" r="23.59" />
+                                                                <circle class="st2" cx="49.41" cy="47.44" r="18.21" />
+                                                                <circle class="st0" cx="49.41" cy="47.44" r="1.79" />
+                                                                <line class="st1" x1="49.41" y1="29.23" x2="49.41"
+                                                                    y2="32.52" />
+                                                                <line class="st1" x1="37.71" y1="33.49" x2="39.82"
+                                                                    y2="36.01" />
+                                                                <line class="st1" x1="31.48" y1="44.28" x2="34.71"
+                                                                    y2="44.85" />
+                                                                <line class="st1" x1="33.64" y1="56.55" x2="36.49"
+                                                                    y2="54.9" />
+                                                                <line class="st1" x1="43.18" y1="64.55" x2="44.31"
+                                                                    y2="61.47" />
+                                                                <line class="st1" x1="55.64" y1="64.55" x2="54.52"
+                                                                    y2="61.47" />
+                                                                <line class="st1" x1="65.18" y1="56.55" x2="62.34"
+                                                                    y2="54.9" />
+                                                                <line class="st1" x1="67.35" y1="44.28" x2="64.11"
+                                                                    y2="44.85" />
+                                                                <line class="st1" x1="61.12" y1="33.49" x2="59.01"
+                                                                    y2="36.01" />
+                                                                <line class="st1" x1="49.41" y1="45.65" x2="49.41"
+                                                                    y2="36.87" />
+                                                                <line class="st1" x1="48.11" y1="48.65" x2="45.5"
+                                                                    y2="52.44" />
+                                                            </g>
+                                                        </svg>
+                                                    </div>
+                                                    <span>贴心的自动删除功能</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="function_text_li_text">
+                                            <div class="function_text_li_text_content">
+                                                <p>
+                                                    独特的「自动限时删除」功能让你设定讯息的存在时间，过期后讯息会自动消失，不留痕迹。无论是敏感话题或是临时交流，都能保持高度隐私。你可以为不同对话设定不同的删除时间，从几天到几个月都可以，完全按照你的需求客制化！
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="function_text_li dark_blue">
+                                    <div class="function_text_li_content">
+                                        <div class="function_text_li_img">
+                                            <div class="function_text_li_img_content">
+                                                <div class="function_text_li_img_svg">
+                                                    <div class="function_text_li_img_svg_content">
+                                                        <svg id="function_text_li_img" data-name="function_text_li_img"
+                                                            xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                                            viewBox="0 0 80 80">
+                                                            <defs>
+                                                                <style>
+                                                                    .st0 {
+                                                                        stroke-miterlimit: 10;
+                                                                    }
+
+                                                                    .st0,
+                                                                    .st1 {
+                                                                        fill: none;
+                                                                        stroke: #177aff;
+                                                                        stroke-linecap: round;
+                                                                        stroke-width: 3px;
+                                                                        stroke-dasharray: 200;
+                                                                        stroke-dashoffset: 200;
+                                                                        animation: circle-draw 10s linear infinite
+                                                                    }
+
+                                                                    .st1 {
+                                                                        stroke-linejoin: round;
+                                                                    }
+
+                                                                    @keyframes circle-draw_2 {
+                                                                        80% {
+                                                                            stroke-dashoffset: 0;
+                                                                        }
+                                                                    }
+                                                                </style>
+                                                            </defs>
+                                                            <g>
+                                                                <g>
+                                                                    <line class="st0" x1="13.51" y1="48.68" x2="35.03"
+                                                                        y2="48.68" />
+                                                                    <g>
+                                                                        <line class="st0" x1="13.51" y1="41.34"
+                                                                            x2="40.08" y2="41.34" />
+                                                                        <line class="st0" x1="13.51" y1="56.02"
+                                                                            x2="26.03" y2="56.02" />
+                                                                    </g>
+                                                                </g>
+                                                                <path class="st1"
+                                                                    d="M42.76,33.9H10.83c-2.46,0-4.45,1.99-4.45,4.45v20.66c0,2.46,1.99,4.45,4.45,4.45h3.96v5.11l5.11-5.11h22.86c2.46,0,4.45-1.99,4.45-4.45v-20.66c0-2.46-1.99-4.45-4.45-4.45Z" />
+                                                            </g>
+                                                            <path class="st1"
+                                                                d="M33.04,33.11c.41-2.03,2.21-3.55,4.36-3.55h31.93c2.46,0,4.45,1.99,4.45,4.45v20.66c0,2.46-1.99,4.45-4.45,4.45h-3.96s0,5.11,0,5.11l-5.11-5.11h-13.05" />
+                                                            <path class="st1"
+                                                                d="M22.38,33.9v-13.7c0-2.46,1.99-4.45,4.45-4.45h3.96s0-5.11,0-5.11l5.11,5.11h22.86c2.46,0,4.45,1.99,4.45,4.45v9.36" />
+                                                        </svg>
+                                                    </div>
+                                                    <span>创新对话盒功能</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="function_text_li_text">
+                                            <div class="function_text_li_text_content">
+                                                <div class="function_text_li_text_title">
+                                                    <div class="function_text_li_text_title_content">
+                                                        <h2>
+                                                            全新「对话盒」功能让你的聊天更加丰富多彩！在同一个对话视窗内创建多个分类主题，轻松整理不同话题：
+                                                        </h2>
+                                                    </div>
+                                                </div>
+                                                <ul>
+                                                    <li>
+                                                        <span><img src="./images/tick.png" alt="打勾"></span>
+                                                        <p>
+                                                            工作讨论盒：专注于专业交流
+                                                        </p>
+                                                    </li>
+                                                    <li>
+                                                        <span><img src="./images/tick.png" alt="打勾"></span>
+                                                        <p>
+                                                            生活分享盒：轻松分享日常点滴
+                                                        </p>
+                                                    </li>
+                                                    <li>
+                                                        <span><img src="./images/tick.png" alt="打勾"></span>
+                                                        <p>
+                                                            档案资料盒：集中存放重要文件
+                                                        </p>
+                                                    </li>
+                                                    <li>
+                                                        <span><img src="./images/tick.png" alt="打勾"></span>
+                                                        <p>
+                                                            重要提醒盒：不会被其他讯息淹没的重要事项
+                                                        </p>
+                                                    </li>
+                                                </ul>
+                                                <p class="function_text_li_text_title_p">
+                                                    对话盒之间可以无缝切换，让你的聊天井然有序，再也不用费力翻找旧讯息！
+                                                </p>
+                                                <div class="function_text_li_text_title">
+                                                    <div class="function_text_li_text_title_content">
+                                                        <h2>
+                                                            完全掌控的群组管理
+                                                            <br>
+                                                            群组功能既自由又有序。强大的管理员功能包括：
+                                                        </h2>
+                                                    </div>
+                                                </div>
+                                                <ul>
+                                                    <li>
+                                                        <span><img src="./images/tick.png" alt="打勾"></span>
+                                                        <p>
+                                                            多层级权限设定系统
+                                                        </p>
+                                                    </li>
+                                                    <li>
+                                                        <span><img src="./images/tick.png" alt="打勾"></span>
+                                                        <p>
+                                                            置顶公告与重要提醒
+                                                        </p>
+                                                    </li>
+                                                    <li>
+                                                        <span><img src="./images/tick.png" alt="打勾"></span>
+                                                        <p>
+                                                            自定义群组主题背景
+                                                        </p>
+                                                    </li>
+                                                </ul>
+                                                <p class="function_text_li_text_title_p">
+                                                    成员也能自由分享想法，设置个人显示方式，真正做到自由与管理的完美平衡。群组人数可达千人，再多人也能流畅运行！
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="function_text_li dark_blue">
+                                    <div class="function_text_li_content">
+                                        <div class="function_text_li_img">
+                                            <div class="function_text_li_img_content">
+                                                <div class="function_text_li_img_svg">
+                                                    <div class="function_text_li_img_svg_content">
+                                                        <svg id="function_text_li_img" data-name="function_text_li_img"
+                                                            xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                                            viewBox="0 0 80 80">
+                                                            <defs>
+                                                                <style>
+                                                                    .st0 {
+                                                                        stroke-miterlimit: 10;
+                                                                    }
+
+                                                                    .st0,
+                                                                    .st1 {
+                                                                        fill: none;
+                                                                        stroke: #177aff;
+                                                                        stroke-linecap: round;
+                                                                        stroke-width: 3px;
+                                                                        stroke-dasharray: 200;
+                                                                        stroke-dashoffset: 200;
+                                                                        animation: circle-draw 10s linear infinite
+                                                                    }
+
+                                                                    .st1 {
+                                                                        stroke-linejoin: round;
+                                                                    }
+
+                                                                    @keyframes circle-draw_2 {
+                                                                        80% {
+                                                                            stroke-dashoffset: 0;
+                                                                        }
+                                                                    }
+                                                                </style>
+                                                            </defs>
+                                                            <g>
+                                                                <g>
+                                                                    <line class="st0" x1="13.51" y1="48.68" x2="35.03"
+                                                                        y2="48.68" />
+                                                                    <g>
+                                                                        <line class="st0" x1="13.51" y1="41.34"
+                                                                            x2="40.08" y2="41.34" />
+                                                                        <line class="st0" x1="13.51" y1="56.02"
+                                                                            x2="26.03" y2="56.02" />
+                                                                    </g>
+                                                                </g>
+                                                                <path class="st1"
+                                                                    d="M42.76,33.9H10.83c-2.46,0-4.45,1.99-4.45,4.45v20.66c0,2.46,1.99,4.45,4.45,4.45h3.96v5.11l5.11-5.11h22.86c2.46,0,4.45-1.99,4.45-4.45v-20.66c0-2.46-1.99-4.45-4.45-4.45Z" />
+                                                            </g>
+                                                            <path class="st1"
+                                                                d="M33.04,33.11c.41-2.03,2.21-3.55,4.36-3.55h31.93c2.46,0,4.45,1.99,4.45,4.45v20.66c0,2.46-1.99,4.45-4.45,4.45h-3.96s0,5.11,0,5.11l-5.11-5.11h-13.05" />
+                                                            <path class="st1"
+                                                                d="M22.38,33.9v-13.7c0-2.46,1.99-4.45,4.45-4.45h3.96s0-5.11,0-5.11l5.11,5.11h22.86c2.46,0,4.45,1.99,4.45,4.45v9.36" />
+                                                        </svg>
+                                                    </div>
+                                                    <span>创新对话盒功能</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="function_text_li_text">
+                                            <div class="function_text_li_text_content">
+                                                <div class="function_text_li_text_title">
+                                                    <div class="function_text_li_text_title_content">
+                                                        <h2>
+                                                            全新「对话盒」功能让你的聊天更加丰富多彩！在同一个对话视窗内创建多个分类主题，轻松整理不同话题：
+                                                        </h2>
+                                                    </div>
+                                                </div>
+                                                <ul>
+                                                    <li>
+                                                        <span><img src="./images/tick.png" alt="打勾"></span>
+                                                        <p>
+                                                            工作讨论盒：专注于专业交流
+                                                        </p>
+                                                    </li>
+                                                    <li>
+                                                        <span><img src="./images/tick.png" alt="打勾"></span>
+                                                        <p>
+                                                            生活分享盒：轻松分享日常点滴
+                                                        </p>
+                                                    </li>
+                                                    <li>
+                                                        <span><img src="./images/tick.png" alt="打勾"></span>
+                                                        <p>
+                                                            档案资料盒：集中存放重要文件
+                                                        </p>
+                                                    </li>
+                                                    <li>
+                                                        <span><img src="./images/tick.png" alt="打勾"></span>
+                                                        <p>
+                                                            重要提醒盒：不会被其他讯息淹没的重要事项
+                                                        </p>
+                                                    </li>
+                                                </ul>
+                                                <p class="function_text_li_text_title_p">
+                                                    对话盒之间可以无缝切换，让你的聊天井然有序，再也不用费力翻找旧讯息！
+                                                </p>
+                                                <div class="function_text_li_text_title">
+                                                    <div class="function_text_li_text_title_content">
+                                                        <h2>
+                                                            完全掌控的群组管理
+                                                            <br>
+                                                            群组功能既自由又有序。强大的管理员功能包括：
+                                                        </h2>
+                                                    </div>
+                                                </div>
+                                                <ul>
+                                                    <li>
+                                                        <span><img src="./images/tick.png" alt="打勾"></span>
+                                                        <p>
+                                                            多层级权限设定系统
+                                                        </p>
+                                                    </li>
+                                                    <li>
+                                                        <span><img src="./images/tick.png" alt="打勾"></span>
+                                                        <p>
+                                                            置顶公告与重要提醒
+                                                        </p>
+                                                    </li>
+                                                    <li>
+                                                        <span><img src="./images/tick.png" alt="打勾"></span>
+                                                        <p>
+                                                            自定义群组主题背景
+                                                        </p>
+                                                    </li>
+                                                </ul>
+                                                <p class="function_text_li_text_title_p">
+                                                    成员也能自由分享想法，设置个人显示方式，真正做到自由与管理的完美平衡。群组人数可达千人，再多人也能流畅运行！
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="function_text_li dark_blue"></li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- ---------------------------------------------------------------------------------------------- -->
+
+
+
+
+    <!-- ---------------------------------------------------------------------------------------------- -->
+
+    <div class="footer" id="connect">
+        <div class="footer_content">
+            <p>Copyright © 2020-2025 JetGram. All Rights Reserved.</p>
+        </div>
+    </div>
+
+    <!-- ---------------------------------------------------------------------------------------------- -->
+
+
+
+
+    <script src="js/main.js"></script>
+    <script>
+        // 翻譯文本
+        const translations = {
+            "en": {
+
+            },
+            "zh-CN": {
+
+            },
+            "ja": {
+
+            },
+            "pt": {
+
+            }
+        };
+
+        let currentLang = 'en'; // ✅ 預設語言為英文
+
+        function toggleDropdown(event) {
+            event.preventDefault();
+            const dropdown = document.getElementById('dropdownMenu');
+            dropdown.classList.toggle('show');
+        }
+
+        function changeLanguage(lang) {
+            currentLang = lang;
+
+            // ✅ 檢查 translations 是否存在
+            if (typeof translations === 'undefined') {
+                console.error("Translations object is not defined.");
+                return;
+            }
+
+            // ✅ 更新所有具有 data-i18n 的元素
+            const elements = document.querySelectorAll("[data-i18n]");
+            elements.forEach(el => {
+                const key = el.getAttribute("data-i18n");
+                if (translations[lang]?.[key]) {
+                    if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
+                        el.value = translations[lang][key];
+                    } else {
+                        el.textContent = translations[lang][key];
+                    }
+                }
+            });
+
+            // ✅ 更新語言圖示
+            const languageIcon = document.getElementById('languageIcon');
+            const langIconMap = {
+                'en': '1',
+                'zh-CN': '2',
+                'ja': '3',
+                'pt': '4'
+            };
+            languageIcon.src = `./images/icon_${langIconMap[lang] || '1'}.svg`;
+
+            // ✅ 關閉語言選單
+            document.getElementById('dropdownMenu').classList.remove('show');
+
+            // ✅ 設定 <html lang="">
+            document.documentElement.lang = lang;
+        }
+
+        // ✅ 頁面載入後初始化為英文
+        document.addEventListener('DOMContentLoaded', function () {
+            changeLanguage(currentLang); // 預設語言與圖示設定
+        });
+    </script>
+</body>
+
+</html>
