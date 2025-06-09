@@ -482,7 +482,7 @@ body {
 }
 
 .main .main_content .privacy .privacy_content .privacy_text .privacy_text_content svg {
-  width: 20%;
+  width: 25%;
   height: auto;
 }
 
@@ -582,7 +582,7 @@ body {
 }
 
 .main .main_content .function .function_content .function_text .function_text_content ul .function_text_li .function_text_li_content .function_text_li_img .function_text_li_img_content .function_text_li_img_svg .function_text_li_img_svg_span {
-  background-color: #024FB8;
+  background-color: rgba(2, 79, 184, 0.9);
 }
 
 .main .main_content .function .function_content .function_text .function_text_content ul .function_text_li .function_text_li_content .function_text_li_img .function_text_li_img_content .function_text_li_img_svg span {
