@@ -460,7 +460,8 @@ body
                                                     width: 100%
                                                     height: 49px
                                                     color: #fff
-                                                    font-size: 22px
+                                                    font-size: 18px
+                                                    font-weight: 900
                                                     @extend %display_flex
                                                     background-color: rgba(23, 122, 255, 0.9)
                                                     position: absolute
@@ -1068,6 +1069,7 @@ body
         position: absolute
         bottom: 43px
         width: 70%
+        max-width: $max-width
         margin: 0 auto
         display: flex
         z-index: 1
@@ -1111,11 +1113,11 @@ body
         .download_button_content
             margin: 0 auto
 
-@media screen and (max-width: 847px)
+@media screen and (max-width: 1020px)
     .download
         padding: 40px 0
         .download_content
-            bottom: 188px
+            width: 80%
             bottom: 120px
             .download_img
                 display: none
