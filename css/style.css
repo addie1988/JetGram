@@ -590,7 +590,6 @@ body {
   height: 49px;
   color: #fff;
   font-size: 22px;
-  padding: 8px;
   background-color: rgba(23, 122, 255, 0.9);
   position: absolute;
   bottom: 30px;
@@ -1393,15 +1392,16 @@ body {
   margin: 0 auto;
   width: 1320px;
   text-align: center;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 .footer .footer_content p {
   color: #fff;
+  font-size: 12px;
 }
 
 @media screen and (max-width: 1192px) {
   .footer .footer_content {
-    width: 100%;
+    width: 90%;
   }
 }
